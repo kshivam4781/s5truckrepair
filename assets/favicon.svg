@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="S5 Truck Repair">
+  <rect width="64" height="64" rx="8" fill="#0a0a0a" />
+  <path fill="#f5a524" d="M12 16h10v32H12zM36 16h10v32H36z" opacity="0.25" />
+  <text
+    x="32"
+    y="38"
+    text-anchor="middle"
+    font-family="Space Grotesk, sans-serif"
+    font-weight="600"
+    font-size="26"
+    fill="#f5a524"
+  >
+    S5
+  </text>
+</svg>
+

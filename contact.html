@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact · S5 Truck Repair</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <nav class="nav">
+        <a class="nav__brand" href="index.html">
+          <img src="assets/logo.png" alt="S5 Truck Repair logo" />
+          <span>S5 Truck Repair</span>
+        </a>
+        <ul class="nav__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="vehicles.html">Vehicles</a></li>
+        </ul>
+        <a class="btn ghost" href="tel:3477412373">Call 347-741-2373</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section">
+        <header class="section__header">
+          <p class="eyebrow">reach out</p>
+          <h2>Connect with the S5 Truck Repair crew.</h2>
+        </header>
+        <div class="map-panel">
+          <iframe
+            title="S5 Truck Repair Map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.506518309237!2d-74.84253968459402!3d40.516762579363975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c30d20f6f7faf3%3A0x86c2c4b5a2d6550d!2s171%20Pennsylvania%20Ave%2C%20Flemington%2C%20NJ%2008822!5e0!3m2!1sen!2sus!4v1701020250712!5m2!1sen!2sus"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="section">
+        <header class="section__header">
+          <p class="eyebrow">contact details</p>
+          <h2>Visit, call, or send a note.</h2>
+        </header>
+        <div class="detail-grid">
+          <article class="contact-card">
+            <strong>Location</strong>
+            <p>171 Pennsylvania Ave · Flemington, NJ 08822</p>
+          </article>
+          <article class="contact-card">
+            <strong>Phone</strong>
+            <p><a href="tel:3477412373">347-741-2373</a></p>
+          </article>
+          <article class="contact-card">
+            <strong>Email</strong>
+            <p><a href="mailto:service@s5truckrepair.com">service@s5truckrepair.com</a></p>
+          </article>
+        </div>
+
+        <form class="form-grid" action="mailto:service@s5truckrepair.com" method="post">
+          <input class="form-field" type="text" name="name" placeholder="Name" required />
+          <input class="form-field" type="email" name="email" placeholder="Email" required />
+          <input class="form-field" type="tel" name="phone" placeholder="Phone" />
+          <textarea class="form-field" name="message" rows="4" placeholder="Project details"></textarea>
+          <button class="btn" type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <section class="footer__content stack">
+        <p>© 2025 S5 Truck Repair · Flemington, NJ </p>
+        <p>American precision, local focus.</p>
+      </section>
+    </footer>
+  </body>
+</html>
+
