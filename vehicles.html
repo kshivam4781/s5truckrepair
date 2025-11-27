@@ -100,11 +100,72 @@
     </main>
 
     <footer class="footer">
-      <section class="footer__content stack">
-        <p>© 2025 S5 Truck Repair · Flemington, NJ </p>
-        <p>American precision, local focus.</p>
-      </section>
+      <div class="footer__grid">
+        <div class="footer__column">
+          <a class="footer__brand" href="index.html">
+            <img src="assets/logo.png" alt="S5 Truck Repair logo" />
+            <span>S5 Truck Repair</span>
+          </a>
+          <p class="footer__description">
+            Experts on Class 8 semis, vocational rigs, and electric fleets—supporting fleets with
+            OEM-integrated parts and aftermarket upgrades, every day.
+          </p>
+        </div>
+        <div class="footer__column">
+          <p class="footer__section-title">Contact</p>
+          <p>171 Pennsylvania Ave · Flemington, NJ 08822</p>
+          <a href="tel:3477412373">347-741-2373</a>
+          <a href="mailto:service@s5truckrepair.com">service@s5truckrepair.com</a>
+        </div>
+        <div class="footer__column">
+          <p class="footer__section-title">Quick Links</p>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="vehicles.html#">Vehicle Expertise</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__note">
+        <p>© 2025 S5 Truck Repair · Flemington, NJ · Open 24x7</p>
+        <p>
+          <a href="https://skytransportsolutions.com" target="_blank" rel="noopener">
+            <strong>Designed by Sky IT Solutions</strong>
+          </a>
+        </p>
+      </div>
     </footer>
+    <div class="chat-widget">
+      <div class="chat-bubble">
+        <p>Welcome to S5 Truck Repair</p>
+        <span>How can I help you?</span>
+      </div>
+      <button class="chat-button" type="button">
+        <span>Chat</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            d="M4 4h16v12H8l-4 4V4z"
+            fill="none"
+            stroke="#fff"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+    <div class="chat-overlay" id="chatOverlay">
+      <div class="chat-frame">
+        <button class="chat-close" type="button" aria-label="Close chat">×</button>
+        <iframe
+          title="S5 Truck Repair chatbot"
+          srcdoc="<div style='display:flex;align-items:center;justify-content:center;height:100%;font-family:Space Grotesk,sans-serif;font-size:1rem;color:#fff;'>Chatbot coming soon</div>"
+          loading="lazy"
+        ></iframe>
+      </div>
+    </div>
+    <script src="chat.js" defer></script>
   </body>
 </html>
 

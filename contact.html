@@ -35,53 +35,116 @@
           <p class="eyebrow">reach out</p>
           <h2>Connect with the S5 Truck Repair crew.</h2>
         </header>
-        <div class="map-panel">
-          <iframe
-            title="S5 Truck Repair Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.506518309237!2d-74.84253968459402!3d40.516762579363975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c30d20f6f7faf3%3A0x86c2c4b5a2d6550d!2s171%20Pennsylvania%20Ave%2C%20Flemington%2C%20NJ%2008822!5e0!3m2!1sen!2sus!4v1701020250712!5m2!1sen!2sus"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-      </section>
+        <div class="contact-top-grid">
+          <div class="map-panel">
+            <iframe
+              title="S5 Truck Repair Map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.506518309237!2d-74.84253968459402!3d40.516762579363975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c30d20f6f7faf3%3A0x86c2c4b5a2d6550d!2s171%20Pennsylvania%20Ave%2C%20Flemington%2C%20NJ%2008822!5e0!3m2!1sen!2sus!4v1701020250712!5m2!1sen!2sus"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="contact-panel">
+            <div class="detail-grid">
+              <article class="contact-card">
+                <strong>Location</strong>
+                <p>171 Pennsylvania Ave · Flemington, NJ 08822</p>
+              </article>
+              <article class="contact-card">
+                <strong>Phone</strong>
+                <p><a href="tel:3477412373">347-741-2373</a></p>
+              </article>
+              <article class="contact-card">
+                <strong>Email</strong>
+                <p><a href="mailto:service@s5truckrepair.com">service@s5truckrepair.com</a></p>
+              </article>
+            </div>
 
-      <section class="section">
-        <header class="section__header">
-          <p class="eyebrow">contact details</p>
-          <h2>Visit, call, or send a note.</h2>
-        </header>
-        <div class="detail-grid">
-          <article class="contact-card">
-            <strong>Location</strong>
-            <p>171 Pennsylvania Ave · Flemington, NJ 08822</p>
-          </article>
-          <article class="contact-card">
-            <strong>Phone</strong>
-            <p><a href="tel:3477412373">347-741-2373</a></p>
-          </article>
-          <article class="contact-card">
-            <strong>Email</strong>
-            <p><a href="mailto:service@s5truckrepair.com">service@s5truckrepair.com</a></p>
-          </article>
+            <form class="form-grid" action="mailto:service@s5truckrepair.com" method="post">
+              <input class="form-field" type="text" name="name" placeholder="Name" required />
+              <input class="form-field" type="email" name="email" placeholder="Email" required />
+              <input class="form-field" type="tel" name="phone" placeholder="Phone" />
+              <textarea
+                class="form-field"
+                name="message"
+                rows="4"
+                placeholder="Project details"
+              ></textarea>
+              <button class="btn" type="submit">Send Message</button>
+            </form>
+          </div>
         </div>
-
-        <form class="form-grid" action="mailto:service@s5truckrepair.com" method="post">
-          <input class="form-field" type="text" name="name" placeholder="Name" required />
-          <input class="form-field" type="email" name="email" placeholder="Email" required />
-          <input class="form-field" type="tel" name="phone" placeholder="Phone" />
-          <textarea class="form-field" name="message" rows="4" placeholder="Project details"></textarea>
-          <button class="btn" type="submit">Send Message</button>
-        </form>
       </section>
     </main>
 
     <footer class="footer">
-      <section class="footer__content stack">
-        <p>© 2025 S5 Truck Repair · Flemington, NJ </p>
-        <p>American precision, local focus.</p>
-      </section>
+      <div class="footer__grid">
+        <div class="footer__column">
+          <a class="footer__brand" href="index.html">
+            <img src="assets/logo.png" alt="S5 Truck Repair logo" />
+            <span>S5 Truck Repair</span>
+          </a>
+          <p class="footer__description">
+            Our Flemington technicians navigate fleet breakdowns and recovery with transparent
+            communication and trusted workmanship, day or night.
+          </p>
+        </div>
+        <div class="footer__column">
+          <p class="footer__section-title">Contact</p>
+          <p>171 Pennsylvania Ave · Flemington, NJ 08822</p>
+          <a href="tel:3477412373">347-741-2373</a>
+          <a href="mailto:service@s5truckrepair.com">service@s5truckrepair.com</a>
+        </div>
+        <div class="footer__column">
+          <p class="footer__section-title">Quick Links</p>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="vehicles.html">Vehicles</a></li>
+            <li><a href="contact.html#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__note">
+        <p>© 2025 S5 Truck Repair · Flemington, NJ · Open 24x7</p>
+        <p>
+          <a href="https://skytransportsolutions.com" target="_blank" rel="noopener">
+            <strong>Designed by Sky IT Solutions</strong>
+          </a>
+        </p>
+      </div>
     </footer>
+    <div class="chat-widget">
+      <div class="chat-bubble">
+        <p>Welcome to S5 Truck Repair</p>
+        <span>How can I help you?</span>
+      </div>
+      <button class="chat-button" type="button">
+        <span>Chat</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            d="M4 4h16v12H8l-4 4V4z"
+            fill="none"
+            stroke="#fff"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+    <div class="chat-overlay" id="chatOverlay">
+      <div class="chat-frame">
+        <button class="chat-close" type="button" aria-label="Close chat">×</button>
+        <iframe
+          title="S5 Truck Repair chatbot"
+          srcdoc="<div style='display:flex;align-items:center;justify-content:center;height:100%;font-family:Space Grotesk,sans-serif;font-size:1rem;color:#fff;'>Chatbot coming soon</div>"
+          loading="lazy"
+        ></iframe>
+      </div>
+    </div>
+    <script src="chat.js" defer></script>
   </body>
 </html>
 
